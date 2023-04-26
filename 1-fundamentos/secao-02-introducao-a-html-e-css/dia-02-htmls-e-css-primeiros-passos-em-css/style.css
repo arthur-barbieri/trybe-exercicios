@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600;
+}
+body {
+    font-size: 16px;
+}
+p {
+    font-size: 3em;
+}
+li {
+    font-style: italic;
+    line-height: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.brow {
+    background-color: brown;
+}
