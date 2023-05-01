@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+ol:hover {
+    background-color: #284B63;
+    list-style: none;
+}
+li:active {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+}
