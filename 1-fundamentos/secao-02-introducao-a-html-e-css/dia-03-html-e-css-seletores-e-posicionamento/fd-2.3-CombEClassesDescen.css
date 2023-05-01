@@ -1,0 +1,54 @@
+/* Ex: 1 */
+ol {
+    background-color: yellow;
+}
+ol li:nth-of-type(even) {
+    color: green;
+}
+ol li:nth-of-type(odd) {
+    text-transform: uppercase;
+}
+/* Ex: 2 */
+h3, h1 {
+    color: red;
+}
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+/* Ex: 3 */
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 600;
+}
+/* Ex: 4 */
+.linguagens li:nth-of-type(1) {
+    color: blue;
+}
+.linguagens li:nth-of-type(2) {
+    background-color: pink;
+}
+.linguagens li:nth-of-type(3) {
+    background-color: pink;
+}
+/* Ex: 5 */
+ul li a:hover {
+    font-weight: 600;
+}
+ul li a:hover[href*="stack"] {
+    color: orangered;
+}
+ul li a:hover[href*="w3schools"] {
+    color: green;
+}
+ul li a:hover[href*="developer"] {
+    color: black;
+}
+ul li a:hover[href*="devdocs"] {
+    color: yellow;
+}
+ul li a:hover[href*="trybe"] {
+    color: green;
+}
