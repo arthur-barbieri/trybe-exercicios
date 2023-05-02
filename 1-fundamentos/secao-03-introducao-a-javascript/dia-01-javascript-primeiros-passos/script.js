@@ -60,3 +60,24 @@ if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'qu
 } else {
     console.log('FINALMENTE, descanso merecido! UwU!')
 }
+
+// Exercício 5 - Switch e Case
+
+let candidato;
+
+switch (candidato) {
+    case 'aprovada':
+        console.log('Parabéns, você está no grupo de pessoas aprovadas!')
+        break;
+
+    case 'lista':
+        console.log('Você está na nossa lista de espera.')
+        break;
+
+    case 'reprovada':
+        console.log('Infelizmente, vocÊ reprovou.')
+        break;
+    
+    default:
+        console.log('Informação incorreta.')
+}
