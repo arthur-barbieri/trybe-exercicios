@@ -1,0 +1,1 @@
+# Aqui serão feitos os primeiros exercícios de Javascript
