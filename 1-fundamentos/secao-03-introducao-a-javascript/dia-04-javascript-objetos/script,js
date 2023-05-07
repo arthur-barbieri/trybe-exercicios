@@ -1,0 +1,12 @@
+let person = {
+  name:'Roberto',
+};
+
+let lastName = {
+  lastName: 'Silva',
+};
+
+let newPerson = Object.assign({},person,lastName); // aqui foi adicionado name: 'Roberto', e lastName: 'Silva' a variável newPerson
+newPerson.name = 'Gilberto'; // aqui foi trocado nome: 'Roberto' por nome: 'Gilberto' 
+console.log(newPerson); // name: 'Gilberto', lastName: 'Silva'
+console.log(person); // name: 'Roberto', lastName: 'Silva'
